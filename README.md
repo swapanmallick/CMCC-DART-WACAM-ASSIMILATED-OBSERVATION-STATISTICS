@@ -1,5 +1,5 @@
 # CMCC-DART ASSIMILATED OBSERVATION MONITORING
-This is a set of Shell, Fortran and python codes for evaluating output from the CMCC Data Assimilation Research Testbed (DART).
+This is a set of Shell, Fortran and Python codes for evaluating output from the CMCC Data Assimilation Research Testbed (DART).
 FORTRAN-90 is used to extract the data from "**obs_seq.final**" files. The obs_seq_final T
 To monitor the total number of observations used and assimilated in enseble-based CMCC-DART with the Whole Atmosphere Community Climate Model (WACCM). The codes are mostly written to accommodate all types of statistics including bias, RMSE, ensemble spread, observation influence, and many more.
 
