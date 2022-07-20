@@ -18,10 +18,12 @@ EXP-1. Statistics for a particular assimilation cycle
 EXP-2. Time series for each type of observation were assimilated.
 
  EXP1.sh--->
+ 
     This file is used to extract the data from **obs_seq.final** for all observation types. The observation includes RADIOSONDE_U_WIND RADIOSONDE_V_WIND RADIOSONDE_TEMP AIRCRAFT_U_WIND AIRCRAFT_V_WIND AIRCRAFT_TEMP SATWIND_U_WIND SATWIND_V_WIND GPSRO_REFRACTIVITY MARINE_SFC_U_WIND MARINE_SFC_V_WIND MARINE_SFC_TEMP RADIOSONDE_SURFACE_ALTIMETER MARINE_SFC_ALTIMETER LAND_SFC_ALTIMETER  AIRS_BT AMSU-CH8 AMSU-CH9 AMSU-CH10 AMSU-CH11 AMSU-CH12 AMSU-CH13 AMSU-CH14. 
+    
     For all the listed observation types multiple **fort.***** will generate.
     A simple python program called **ALL_QC.py** will generate a spatial (Geographic) plot for each type of observation.
     And finally, all the images will be merged in a single PDF file called **${EXP}_SPATIAL_OBS${DATE1}_${UTC1}.pdf**
     
-  So EXP-1, needs to modify the input path and the run
-  > sh  EXP1.sh
+So EXP-1, needs to modify the input path and the run
+> sh  EXP1.sh
