@@ -30,8 +30,9 @@ So EXP-1, needs to modify the input path and the run
 > sh  EXP1.sh
 
 EXP-2-->
-cd EXP-2
-Change the required input and output path
+
+Inside EXP-2 folder
+Change the required input and output path in the file EXP-2.sh and EXP2-PLOT.sh
 
 > sh  EXP-2.sh
 This will create multiple **ASCII** files with the information of mean error, RMSE, and spread for each assimilation cycle.
