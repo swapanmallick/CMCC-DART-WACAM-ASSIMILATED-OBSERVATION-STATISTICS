@@ -40,3 +40,10 @@ This will create multiple **ASCII** files with the information of mean error, RM
 RUN EXP2-PLOT.sh
 This will create the final line plots inside a single PDF file.
 An example is included with the name "REPORT_SATWIND_U_WIND_2017.pdf"
+
+# Dependencies
+
+matplotlib
+numpy
+Basemap
+FORTRAN-90 compiler
