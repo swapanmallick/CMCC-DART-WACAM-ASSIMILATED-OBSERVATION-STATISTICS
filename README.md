@@ -43,7 +43,7 @@ An example is included with the name "REPORT_SATWIND_U_WIND_2017.pdf"
 
 # Dependencies
 
-matplotlib
-numpy
-Basemap
-FORTRAN-90 compiler
+1. matplotlib
+2. numpy
+3. Basemap
+4. FORTRAN-90 compiler
