@@ -27,4 +27,15 @@ EXP-2. Time series for each type of observation were assimilated.
     And finally, all the images will be merged in a single PDF file called **${EXP}_SPATIAL_OBS${DATE1}_${UTC1}.pdf**
     
 So EXP-1, needs to modify the input path and the run
-> sh  EXP1.sh
+> sh  EXP1.sh
+
+EXP-2-->
+cd EXP-2
+Change the required input and output path
+
+> sh  EXP-2.sh
+This will create multiple **ASCII** files with the information of mean error, RMSE, and spread for each assimilation cycle.
+
+> sh EXP2-PLOT.sh
+This will create the final line plots inside a single PDF file.
+An example is included with the name "REPORT_SATWIND_U_WIND_2017.pdf"
